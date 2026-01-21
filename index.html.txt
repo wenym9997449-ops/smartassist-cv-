@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SmartAssist CV - Assistente Virtual & Presencial em Cabo Verde</title>
+  <meta name="description" content="Assistente virtual e presencial na Praia, Cabo Verde. Agendamento, currículos, cartas de apresentação, logos, cartazes, sites e protocolo em eventos."/>
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #f8f9fa;
+    }
+    header {
+      background: linear-gradient(135deg, #006994, #00a896);
+      color: white;
+      text-align: center;
+      padding: 80px 20px 60px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.4rem;
+      max-width: 700px;
+      margin: 0 auto 30px;
+    }
+    .btn {
+      display: inline-block;
+      background: #ff6b35;
+      color: white;
+      padding: 14px 30px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 10px;
+      transition: all 0.3s;
+    }
+    .btn:hover { background: #e55a2d; transform: translateY(-3px); }
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    h2 {
+      text-align: center;
+      color: #006994;
+      margin-bottom: 40px;
+      font-size: 2.5rem;
+    }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+      padding: 30px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .card:hover { transform: translateY(-10px); }
+    .card h3 { color: #00a896; margin-bottom: 15px; }
+    .about { background: #e6f4f1; text-align: center; }
+    .contact {
+      background: #006994;
+      color: white;
+      text-align: center;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 768px) {
+      header h1 { font-size: 2.2rem; }
+      header p { font-size: 1.2rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SmartAssist CV</h1>
+    <p>Seu assistente inteligente virtual e presencial em Cabo Verde</p>
+    <p>Organizamos sua vida profissional com agendamento, currículos perfeitos, design criativo e protocolo impecável em eventos.</p>
+    
+    <a href="https://wa.me/2389234469?text=Olá!%20Quero%20saber%20mais%20sobre%20os%20serviços%20da%20SmartAssist%20CV" class="btn" target="_blank">Fale comigo no WhatsApp</a>
+    <a href="#contact" class="btn">Contactos</a>
+  </header>
+
+  <section id="servicos">
+    <h2>Nossos Serviços</h2>
+    <div class="services-grid">
+      <div class="card">
+        <h3>Agendamento & Atendimento</h3>
+        <p>Gestão de agenda virtual ou presencial, marcação de reuniões, lembretes e atendimento ao cliente.</p>
+      </div>
+      <div class="card">
+        <h3>Currículo & Carta de Apresentação</h3>
+        <p>Criação e otimização de CVs profissionais, cartas personalizadas e LinkedIn atrativo.</p>
+      </div>
+      <div class="card">
+        <h3>Design Gráfico</h3>
+        <p>Logotipos modernos, cartazes, banners, posts para redes sociais e identidade visual.</p>
+      </div>
+      <div class="card">
+        <h3>Criação de Sites</h3>
+        <p>Sites simples, portfólios ou páginas profissionais – rápidos e bonitos.</p>
+      </div>
+      <div class="card">
+        <h3>Preenchimento de Formulários</h3>
+        <p>Formulários oficiais, inscrições, candidaturas e documentos burocráticos.</p>
+      </div>
+      <div class="card">
+        <h3>Protocolo em Eventos</h3>
+        <p>Recepção, organização, credenciamento e suporte presencial em eventos, casamentos, conferências.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <h2>Por que escolher a SmartAssist CV?</h2>
+    <p style="max-width:800px; margin:0 auto 30px; font-size:1.2rem;">
+      Somos baseados na Praia, Cabo Verde. Atendemos 100% online (virtual) ou presencial quando necessário. 
+      Rapidez, discrição, profissionalismo e preços acessíveis para ajudar você a focar no que realmente importa.
+    </p>
+    <a href="https://wa.me/2389234469?text=Quero%20um%20orçamento!" class="btn">Peça seu orçamento grátis!</a>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contactos</h2>
+    <p style="font-size:1.3rem; margin-bottom:20px;">
+      WhatsApp / Telemóvel: <strong>+238 923 44 69</strong><br>
+      Localização: Praia, Santiago – Cabo Verde
+    </p>
+    <a href="https://wa.me/2389234469?text=Olá%20SmartAssist!%20Estou%20interessado(a)%20nos%20serviços." class="btn" style="background:#25D366;">Chamar no WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>© 2026 SmartAssist CV – Todos os direitos reservados. Feito com dedicação em Cabo Verde.</p>
+  </footer>
+
+</body>
+</html>
